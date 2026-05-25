@@ -1,0 +1,23 @@
+# Python cache & byte‑code
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual‑env / pipenv / poetry
+venv/
+.venv/
+env/
+.conda/
+
+# Sensitive files – do NOT commit
+.env               
+*.key
+
+# Large binary data that you may not want to ship
+vectorstore/
+*.faiss
+*.pkl
+
+# Streamlit caches
+.streamlit/
