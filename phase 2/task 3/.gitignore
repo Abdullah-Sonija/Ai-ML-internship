@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (raw and processed)
+data/raw/
+data/processed/
+
+# Output weights and features
+outputs/features/
+outputs/models/
+
+# Environment files
+.env
+.venv
+env/
+venv/
+ENV/
