@@ -10,11 +10,11 @@ venv/
 env/
 .conda/
 
-# Sensitive files – do NOT commit
-.env               
+# Sensitive files – never commit
+.env
 *.key
 
-# Large binary data that you may not want to ship
+# Large binary data you don’t want in git
 vectorstore/
 *.faiss
 *.pkl

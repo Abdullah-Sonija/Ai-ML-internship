@@ -64,19 +64,7 @@ QA_PROMPT = PromptTemplate(
 
 
 def build_chatbot(vectorstore) -> ConversationalRetrievalChain:
-    """
-    Builds and returns a ConversationalRetrievalChain using Grok as the LLM.
-
-    Args:
-        vectorstore: A FAISS vector store (from create_vector_store).
-
-    Returns:
-        ConversationalRetrievalChain: The fully assembled RAG chatbot chain.
-
-    Raises:
-        ValueError: If GROK_API_KEY is not set in the environment.
-    """
-
+    
     if not GROK_API_KEY:
         raise ValueError(
             "GROK_API_KEY not found!\n"
